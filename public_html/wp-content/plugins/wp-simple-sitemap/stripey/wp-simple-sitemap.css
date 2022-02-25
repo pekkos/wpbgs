@@ -1,0 +1,44 @@
+#wp_simple_sitemap ul, #wp_simple_sitemap ul li, #wp_simple_sitemap ul li:before, #wp_simple_sitemap ul li a {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	content: "";
+	border: none;
+	text-decoration: none;
+	font-weight: normal;
+	font-family: Verdana;
+	font-style: normal;
+	list-style: none;
+	text-transform: none;
+	text-indent: 0px;
+	font-variant: normal;
+	line-height: 12px;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+	font-size: 11px;
+}
+#wp_simple_sitemap  ul li {
+	display: block;
+}
+
+#wp_simple_sitemap ul li.line {
+	background: #f5f5f5;
+}
+
+#wp_simple_sitemap ul li a {
+	display: block;
+	line-height: 18px;
+	background: url('img/sitemap-post.gif') center left no-repeat;
+	text-indent: 10px;
+	width: 100%;
+	color: #333;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #63c3e6;
+}
+
+#wp_simple_sitemap ul li a:hover {
+	background: #bcedff;
+	border-bottom: 1px solid #63c3e6;
+	border-top: 1px solid #fff;
+}
